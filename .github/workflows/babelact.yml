@@ -30,6 +30,6 @@ jobs:
         run: ./node_modules/.bin/babel src --out-dir lib
       - uses: actions/upload-artifact@v2
         with:
-          name: my-artifact
-          path: path/to/artifact/
+          name: output-artefact
+          path: lib
    
