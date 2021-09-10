@@ -25,7 +25,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a babel install
-        run: npm install --save-dev @babel/core && --save-dev @babel/cli && --save-dev @babel/preset-env
+        run: npm install @babel/core && @babel/cli && @babel/preset-env
       - name: Run a babel transpile
         run: ./node_modules/.bin/babel src --out-dir lib
       - uses: actions/upload-artifact@v2
