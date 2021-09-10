@@ -1,0 +1,25 @@
+{
+  "name": "belive",
+  "version": "1.0.0",
+  "description": "aws",
+  "main": "app-api.js",
+  "dependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/singulardoto/belive.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/singulardoto/belive/issues"
+  },
+  "homepage": "https://github.com/singulardoto/belive#readme"
+}
