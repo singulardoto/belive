@@ -26,9 +26,10 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a babel install
-        run: npm i @babel/core -g @babel/cli @babel/preset-env
+        run: npm i @babel/core @babel/cli @babel/preset-env
       - name: Run a babel transpile
         run: |
+          npm install -g babel-cli
           babel src --out-dir lib
       - name: Removing node_modules and transfer lib transpiled files to src
         run: |
