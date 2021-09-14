@@ -29,7 +29,7 @@ jobs:
         run: npm i @babel/core @babel/cli @babel/preset-env
       - name: Run a babel transpile
         run: |
-          alias babel="./node_modules/.bin/babel/
+          alias babel="./node_modules/.bin/babel/"
           babel src --out-dir lib
       - name: Removing node_modules and transfer lib transpiled files to src
         run: |
