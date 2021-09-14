@@ -28,7 +28,7 @@ jobs:
       - name: Run a babel install
         run: npm i @babel/core @babel/cli @babel/preset-env
       - name: Run a babel transpile
-        run: babel src --out-dir lib
+        run: nxp babel src --out-dir lib
       - name: Removing node_modules and transfer lib transpiled files to src
         run: |
           rm -rf node_modules
