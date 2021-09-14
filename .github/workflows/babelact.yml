@@ -26,7 +26,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a babel install
-        run: npm i -g @babel/core -g @babel/cli -g @babel/preset-env
+        run: npm i @babel/core -g @babel/cli @babel/preset-env
       - name: Run a babel transpile
         run: |
           babel src --out-dir lib
